@@ -1,7 +1,7 @@
 import React from "react";
-import "./ImageLinkForm.css";
+import "./FaceRecognition.css";
 
-const ImageLinkForm = ({ onInputChange, onSubmit }) => {
+const FaceRecognition = ({ onInputChange, onSubmit }) => {
   return (
     <div>
       <p className="f3">
@@ -26,4 +26,4 @@ const ImageLinkForm = ({ onInputChange, onSubmit }) => {
   );
 };
 
-export default ImageLinkForm;
+export default FaceRecognition;
